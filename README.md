@@ -1,9 +1,9 @@
-# 📺 Content Monetization Modeler
+#  Content Monetization Modeler
 **GUVI | HCL – Social Media Analytics Capstone Project**
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 A machine-learning pipeline that predicts **YouTube ad revenue (USD)** for individual videos based on performance and contextual features.
 
@@ -11,7 +11,7 @@ The project includes full EDA, preprocessing, feature engineering, 5 regression 
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 content-monetization-modeler/
@@ -25,7 +25,7 @@ content-monetization-modeler/
 
 ---
 
-## 📊 Dataset — `youtube_ad_revenue_dataset.csv`
+##  Dataset — `youtube_ad_revenue_dataset.csv`
 
 | Column | Type | Description |
 |--------|------|-------------|
@@ -48,7 +48,7 @@ content-monetization-modeler/
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ```bash
 # 1. Clone the repository
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Step 1 — Open Jupyter Notebook
 ```bash
@@ -84,7 +84,7 @@ Open browser at → **http://localhost:8501**
 
 ---
 
-## 🔧 Feature Engineering
+##  Feature Engineering
 
 | Feature | Formula | Rationale |
 |---------|---------|-----------|
@@ -101,7 +101,7 @@ Open browser at → **http://localhost:8501**
 
 ---
 
-## 🤖 Models & Results
+##  Models & Results
 
 | Model | R² | RMSE | MAE |
 |-------|----|------|-----|
@@ -115,7 +115,7 @@ Open browser at → **http://localhost:8501**
 
 ---
 
-## 🌐 Streamlit App Pages
+##  Streamlit App Pages
 
 | Page | Description |
 |------|-------------|
@@ -126,7 +126,7 @@ Open browser at → **http://localhost:8501**
 
 ---
 
-## 📐 Evaluation Metrics
+##  Evaluation Metrics
 
 - **R² Score** — Proportion of variance explained (higher = better)
 - **RMSE** — Root Mean Squared Error (lower = better)
@@ -134,7 +134,7 @@ Open browser at → **http://localhost:8501**
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 1. **Watch time** is the strongest predictor of ad revenue
 2. **Tech** and **Education** categories earn the highest revenue
@@ -144,7 +144,7 @@ Open browser at → **http://localhost:8501**
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 numpy
@@ -158,8 +158,8 @@ streamlit
 
 ---
 
-## 👤 Author
+##  Author
 
-Built for the **GUVI | HCL Content Monetization Modeler** Capstone Project.
+Built for the ** Content Monetization Modeler** Capstone Project.
 
 > Dataset: youtube_ad_revenue_dataset.csv — 122,400 YouTube video records
